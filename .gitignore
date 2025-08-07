@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+
+#Build artifacts
+build/
+dist/
+*.egg-info/
+
+#Local html and debug files
+*.html
+*.json
+!/data/*.json
