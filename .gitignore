@@ -11,3 +11,6 @@ dist/
 *.html
 *.json
 !/data/*.json
+
+# Ignore Playwright's persistent browser session data
+src/playwright_user_data/
